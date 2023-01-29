@@ -1,16 +1,15 @@
-<!--  link, script*, style*, body,
-    aside,
-    div, span, b, i, strong, em, code, pre, hr,
-    img, picture, iframe, audio, video, source, canvas*, svg* ul,
-    ol, optgroup, li, form, label, fieldset, legend, input, textarea,
-    datalist, select, option, details, summary, button, template, table,
-    tr, td, th, caption, col, colgroup, figure, figcaption-->
+<!--code,
+    picture, iframe, video, canvas*, svg*,
+    optgroup, fieldset, legend,
+    datalist, table,
+    tr, td, th, caption, col, colgroup-->
 
 <!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
         <title>Haitong's Portfolio</title>
+        <link rel="stylesheet" href="CSS/styles.css">
     </head>
 
     <body>
@@ -20,18 +19,26 @@
                 <a href="/blogs.html">BLOGS</a> |
                 <a href="/eats.html">EATS</a> |
                 <a href="/travels.html">TRAVELS</a>
-              </nav>
+                <a href="/labs.html">Labs</a>
+            </nav>
         </header>
         <main>
-            <h1>Welcome to Haitong's Space!</h1>
+            <h1>Welcome to Haitong's <i>Spectrum!</i></h1>
             <h2>This portfolio site is under construction</h2>
             <h3>Feel free to leave your feedback!</h3>
-            <p>This is p
-                <br>
-                This is another p</p>
 
             <section>
-                this is intro section
+                <figure>
+                    <img src="images/haitong.jpeg" alt="Trulli" style="width:20%">
+                    <figcaption>At A <b>Brunch</b> Place At <strong>Catalina Island</strong>.</figcaption>
+                </figure>
+                <ul display="inline">
+                    <li><a href="https://www.linkedin.com/in/haitongc/" target="_blank">LinkedIn</a></li>
+                    <li><a href="https://github.com/hchen7788" target="_blank">Github</a></li>
+                    <li><a href="mailto:haitongchen116@gmail.com" target="_blank">Email</a></li>
+                    <li><a href="https://docs.google.com/document/d/1pymvXqyczpcKYYplnFrErOaaqzcPqVB7J3MQrqn1mv4/edit?usp=sharing" target="_blank">Resumé</a></li>
+                </ul>
+                <textarea>Placeholder for self introduction.</textarea>
             </section>
             <nav>
                 <a href="/index.html">EDUCATION</a> |
@@ -40,8 +47,92 @@
                 <a href="/travels.html">OTHER PROJECTS</a>
             </nav> 
             <section>
-                This is detailed experience section
+                <div>
+                    <!-- UCSD -->
+                    This is UCSD section.
+                </div>
             </section>
+            <section>
+                This is work experience section
+                <ul>
+                    <li>
+                        <div>
+                            <!-- CSE tutor -->
+                            This is CSE tutor section.
+                        </div>
+                    </li>
+                    <hr>
+                    <li>
+                        <div>
+                            <!-- AWS TAM intern -->
+                            This is AWS TAM intern section.
+                        </div>
+                    </li>
+                </hr>
+                <hr>
+                    <li>
+                        <div>
+                            <!-- ARNOC research intern -->
+                            This is ARNOC research intern section.
+                        </div>
+                    </li>
+                </hr>
+                </ul>
+            </section>
+            <section>
+                <ul>
+                    <li>
+                        <div>
+                            This is WIC secretary section.
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            This is WIC DEV team lead section.
+                        </div>
+                    </li>
+                </ul>
+            </section>
+            <section>
+                <ul>
+                    <li>
+                        <div>
+                            This is ZooSeeker section.
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            This is little cheif section.
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            This is WhatToEatToday section.
+                        </div>
+                    </li>
+                </ul>
+            </section>
+
+            <p>Do you find this site helpful?</p>
+
+            <form action="/action_page.php">
+                <input type="radio" name="answer">
+                <label for="yes">YES</label><br>
+                <input type="radio" name="answer">
+                <label for="notYet">NOT YET</label><br>
+                <input type="submit" value="Submit">
+            </form>
+            <button onclick="showContent()">Submit Feedback Here.</button>
+                <template>
+                    <form action="/action_page.php">
+                        <input type="text" name="answer">
+                        <label for="text">text</label><br>
+                        <input type="submit" value="Submit">
+                    </form>
+                </template>
+                <script>
+                    //Placeholder for JS scripts
+                </script>
         </main>
         
         <footer>This is footer</footer>
