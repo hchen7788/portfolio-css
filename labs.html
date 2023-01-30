@@ -56,7 +56,9 @@
               </details>
         </section>
         <section>
-            <h3>testing select, optgroup and option tags</h3>
+            <h3>testing fieldset, legend, select, optgroup and option tags</h3>
+            <fieldset>
+                <legend>What's your favorite color?</legend>
                 <label for="colors">Choose a color:</label>
                 <select name="colors" id="colors">
                     <optgroup label="Warm colors"></optgroup>
@@ -67,6 +69,7 @@
                         <option value="blue">Blue</option>
                         <option value="green">Green</option>
                 </select>
+            </fieldset>
         </section>
         <section>
             <h3>testing canvas tag</h3>
@@ -82,8 +85,96 @@
                 </script>
         </section>
         <section>
-            <h3>testing iframe</h3>
+            <h3>testing iframe tag</h3>
             <iframe src="https://www.ucsd.edu" title="UCSD Web Site"></iframe>
+        </section>
+        <section>
+            <h3>testing code tag</h3>
+            <p>Coding is so fun.</p>
+            <p>the first line of code I learned is <code>Hello World!</code>.</p>
+        </section>
+        <section>
+            <h3>testing picture tag</h3>
+            <picture>
+                <source media="(min-width:650px)" srcset="images/ucsd.jpeg">
+                <source media="(min-width:650px)" srcset="images/wic.jpeg">
+                <img src="images/ucsd.jpeg" alt="UCSD" style="width:10%;">
+              </picture>
+        </section>
+        <section>
+            <h3>testing table tag</h3>
+            <table>
+                <caption>Months and Days in Month</caption>
+                <colgroup>
+                    <col span="1" style="background-color:rgba(112, 141, 228, 0.28)">
+                    <col style="background-color:rgba(255, 255, 0, 0.163)">
+                  </colgroup>
+                <tr>
+                  <th>Month</th>
+                  <th>Days in Month</th>
+                </tr>
+                <tr>
+                  <td>January</td>
+                  <td>31</td>
+                </tr>
+                <tr>
+                    <td>February</td>
+                    <td>28/29</td>
+                  </tr>
+                  <tr>
+                    <td>March</td>
+                    <td>31</td>
+                  </tr>
+                  <tr>
+                    <td>April</td>
+                    <td>30</td>
+                  </tr>
+                  <tr>
+                    <td>May</td>
+                    <td>31</td>
+                  </tr>
+                  <tr>
+                    <td>June</td>
+                    <td>30</td>
+                  </tr>
+                  <tr>
+                    <td>July</td>
+                    <td>31</td>
+                  </tr>
+                  <tr>
+                    <td>August</td>
+                    <td>31</td>
+                  </tr>
+                  <tr>
+                    <td>September</td>
+                    <td>30</td>
+                  </tr>
+                  <tr>
+                    <td>October</td>
+                    <td>31</td>
+                  </tr>
+                  <tr>
+                    <td>November</td>
+                    <td>30</td>
+                  </tr>
+                  <tr>
+                    <td>December</td>
+                    <td>31</td>
+                  </tr>
+              </table>
+        </section>
+        <section>
+            <h3>testing svg tag</h3>
+            <svg width="100" height="100">
+                <circle cx="50" cy="50" r="50" fill="yellow" />
+            </svg>
+        </section>
+        <section>
+            <p>testing video tag</p>
+            <video width="320" height="240" controls>
+                <source src="movie.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
         </section>
     </body>
 </html>

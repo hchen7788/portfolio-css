@@ -1,9 +1,3 @@
-<!--code,
-    picture, video, svg*,
-    fieldset, legend,
-    datalist, table,
-    tr, td, th, caption, col, colgroup-->
-
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -115,12 +109,15 @@
             <p>Do you find this site helpful?</p>
 
             <form action="/action_page.php">
-                <input type="radio" name="answer">
-                <label for="yes">YES</label><br>
-                <input type="radio" name="answer">
-                <label for="notYet">NOT YET</label><br>
+                <label for="question">Do you find this site helpful:</label>
+                <input list="answers" name="answer" id="answer">
+                <datalist id="answers">
+                    <option value="YES">
+                    <option value="NOT YET">
+                </datalist>
                 <input type="submit" value="Submit">
             </form>
+
             <button onclick="showContent()">Submit Feedback Here.</button>
                 <template>
                     <form action="/action_page.php">
