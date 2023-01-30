@@ -56,14 +56,34 @@
               </details>
         </section>
         <section>
-            <h3>testing select and option tags</h3>
+            <h3>testing select, optgroup and option tags</h3>
                 <label for="colors">Choose a color:</label>
                 <select name="colors" id="colors">
-                <option value="red">Red</option>
-                <option value="blue">Blue</option>
-                <option value="yellow">Yellow</option>
-                <option value="green">Green</option>
+                    <optgroup label="Warm colors"></optgroup>
+                        <option value="red">Red</option>
+                        <option value="yellow">Yellow</option>
+                    </optgroup>
+                    <optgroup label="Cold colors"></optgroup>
+                        <option value="blue">Blue</option>
+                        <option value="green">Green</option>
                 </select>
+        </section>
+        <section>
+            <h3>testing canvas tag</h3>
+            <canvas id="testCanvas">
+                Your browser does not support the canvas tag.
+                </canvas>
+                
+                <script>
+                var canvas = document.getElementById("testCanvas");
+                var ctx = canvas.getContext("2d");
+                ctx.fillStyle = "blue";
+                ctx.fillRect(10, 10, 10, 10);
+                </script>
+        </section>
+        <section>
+            <h3>testing iframe</h3>
+            <iframe src="https://www.ucsd.edu" title="UCSD Web Site"></iframe>
         </section>
     </body>
 </html>
