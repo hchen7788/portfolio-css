@@ -1,0 +1,35 @@
+.headernav {
+    float: right;
+    background-color: rgba(255, 255, 182, 0.776);
+}
+
+/*
+#selfintro {
+    display: flex;
+    justify-content: space-between;
+}
+*/
+
+
+/*
+#introleft{
+    float: left;
+}
+
+#introright{
+    float: right;
+}
+*/
+
+#socials{
+    display: inline;
+}
+
+.box img {
+    width: 10%;
+    height: 10%;
+}
+
+.box-contain img {
+    object-fit: contain;
+}
