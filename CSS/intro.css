@@ -1,0 +1,73 @@
+#selfintro {
+    display: block;
+    padding-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    height: auto;
+    overflow: hidden;
+}
+
+#introleft{
+    width: 50%;
+    float: left;
+    height: fit-content;
+}
+
+
+#pic-caption{
+    width: 100%;
+}
+
+#pic{
+    width: 100%;
+}
+
+#socials{
+    float: left;
+    float: bottom;
+}
+
+#socials li{
+    display: inline;
+    list-style-type: none;
+}
+
+#socials img{
+    width: 15%;
+    padding-inline: 2.5%;
+}
+
+#introright{
+    width: 50%;
+    float: right;
+    height: fit-content;
+}
+
+#introright p{
+    display: inline;
+}
+
+#content-nav{
+    background-color: #fef8c62e;
+    height: fit-content;
+    width: 65%;;
+    font-size: 100%;
+    font-family: 'Inconsolata', 'Dosis', monospace;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: outset;
+    border-radius: 0.5cm;
+    border-width: 0.2cm;
+}
+
+.box img {
+    width: 10%;
+    height: 10%;
+    float: left;
+}
+
+.box-contain img {
+    object-fit: contain;
+}

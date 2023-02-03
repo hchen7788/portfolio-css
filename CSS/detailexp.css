@@ -1,0 +1,19 @@
+#education{
+    display: block;
+    padding-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    height: auto;
+    overflow: hidden;
+}
+
+#education li{
+    list-style-type: none;
+}
+
+#education .detail-text textarea{
+    float: right;
+    background-color: black;
+    color:aqua;
+}

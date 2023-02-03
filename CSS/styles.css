@@ -1,51 +1,29 @@
-.headernav {
-    float: right;
-    background-color: rgba(255, 255, 182, 0.776);
+html, body, h1{
+    margin: 0;
+    padding-top: 0;
+    font-family: 'Inconsolata', 'Dosis', monospace;
+}
 
+#headernav {
     height: 30px;
     width: 100%;
+    background-color: #fef8c6;
     font-size: 20px;
     color: black;
     font-family: 'Inconsolata', 'Dosis', monospace;
-    position: relative;
-}
-
-
-#selfintro {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 65%;
-    height: auto;
-    overflow: hidden;
-}
-
-#selfintro #introleft{
-    width: 50%;
-    float: left;
-}
-/*
-.mypic{
-    width:100%;
-}
-*/
-#selfintro #introright{
-    width: 50%;
     float: right;
-    display:inline-block;
 }
 
-#socials{
-    display: inline;
+#footer{
+    height: fit-content;
+    width: 100%;
+    background-color: #fef8c6;
+    text-align: center;
+    color: #AAA9A9;
+    font-family: 'Inconsolata', 'Dosis', monospace;
 }
 
-.box img {
-    width: 10%;
-    height: 10%;
-}
-
-.box-contain img {
-    object-fit: contain;
+#footer p{
+    margin: 0;
+    text-align: center;
 }
