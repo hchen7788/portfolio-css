@@ -1,3 +1,28 @@
+h1 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 18.5em;
+    height: 1.25em;
+    animation: typing 3.0s steps(37, end);
+    /* animation: typing 3.0s steps(37, end), blink-caret .75s step-end infinite; */
+    word-break: break-all;
+    overflow: hidden;
+    /* border-right: 0.5px solid transparent; */
+}
+
+@keyframes typing {
+    from { width: 0; }
+    to { width: 18.5em; }
+}
+
+/*
+animation for caret
+@keyframes blink-caret {
+    from, to { border-color: transparent; }
+    50% { border-color: currentColor; }
+}
+*/
+
 #selfintro {
     display: block;
     padding-top: 30px;
