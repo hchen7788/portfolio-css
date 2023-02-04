@@ -47,8 +47,8 @@
 }
 
 #content-nav{
-    background-color: #fef8c62e;
-    height: fit-content;
+    background-color: #fef8c66c;
+    height: 50px;
     width: 65%;;
     font-size: 20px;
     font-family: 'Inconsolata', 'Dosis', monospace;
@@ -57,10 +57,7 @@
     margin-right: auto;
     border-style: outset;
     border-radius: 0.5cm;
-    border-width: 0.2cm;
+    border-width: 0.5px;
 }
 
-#content-nav li{
-    padding: 5px
-}
 
