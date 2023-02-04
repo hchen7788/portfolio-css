@@ -1,5 +1,9 @@
-.anchortext{
-    color:blue;
+.anchor-text{
+    color:black;
+    font-size: 25px;
+    font-family: 'Inconsolata', 'Dosis', monospace;
+    font-weight: 100;
+    margin-left: 0;
 }
 
 #detailexp {
@@ -20,6 +24,10 @@
 
 #detailexp div{
     padding: 50px;
+}
+
+#detailexp section{
+    padding: 30px;
 }
 
 #detailexp li{
