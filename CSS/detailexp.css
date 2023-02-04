@@ -1,10 +1,3 @@
-#detailexp img {
-    width: 25%;
-    height: 25%;
-    float: left;
-    object-fit: contain;
-}
-
 #detailexp {
     display: block;
     padding-top: 30px;
@@ -15,6 +8,13 @@
     clear: both;
 }
 
+#detailexp img {
+    width: 25%;
+    height: 25%;
+    float: left;
+    object-fit: contain;
+}
+
 #detailexp div{
     padding: 50px;
 }
@@ -23,9 +23,7 @@
     list-style-type: none;
 }
 
-#detailexp .detail-text{
+#detailexp textarea{
     float: right;
-    background-color: black;
-    color:aqua;
     width: 65%;
 }
