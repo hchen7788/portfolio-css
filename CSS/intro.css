@@ -14,13 +14,11 @@
     height: fit-content;
 }
 
-
-#pic-caption{
-    width: 100%;
-}
-
 #pic{
-    width: 100%;
+    margin-left: 50px;
+    width: 70%;
+    border-radius: 5%;
+    height: fit-content;
 }
 
 #socials{
@@ -35,7 +33,7 @@
 
 #socials img{
     width: 15%;
-    padding-inline: 2.5%;
+    padding-inline: 2%;
 }
 
 #introright{
