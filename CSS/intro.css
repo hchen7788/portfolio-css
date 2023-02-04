@@ -62,12 +62,3 @@
     border-width: 0.2cm;
 }
 
-.box img {
-    width: 10%;
-    height: 10%;
-    float: left;
-}
-
-.box-contain img {
-    object-fit: contain;
-}

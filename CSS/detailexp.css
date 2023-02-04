@@ -1,19 +1,27 @@
-#education{
+#detailexp img {
+    width: 25%;
+    height: 25%;
+    float: left;
+    object-fit: contain;
+}
+
+#detailexp {
     display: block;
     padding-top: 30px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     width: 60%;
     height: auto;
     overflow: hidden;
+    clear: both;
 }
 
-#education li{
+#detailexp li{
     list-style-type: none;
 }
 
-#education .detail-text textarea{
+#detailexp .detail-text{
     float: right;
     background-color: black;
     color:aqua;
+    width: 65%;
 }
