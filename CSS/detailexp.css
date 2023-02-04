@@ -15,6 +15,10 @@
     clear: both;
 }
 
+#detailexp div{
+    padding: 50px;
+}
+
 #detailexp li{
     list-style-type: none;
 }
