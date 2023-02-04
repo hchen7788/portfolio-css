@@ -48,7 +48,7 @@
 
 #content-nav{
     background-color: #fef8c66c;
-    height: 50px;
+    height: fit-content;
     width: 65%;;
     font-size: 20px;
     font-family: 'Inconsolata', 'Dosis', monospace;
@@ -60,7 +60,8 @@
     border-width: 0.5px;
 }
 
-#content-nav a{
-    padding-top: 10px;
+#content-nav div{
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
