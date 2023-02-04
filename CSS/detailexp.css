@@ -1,11 +1,14 @@
+.anchortext{
+    color:blue;
+}
+
 #detailexp {
     display: block;
-    padding-top: 30px;
+    padding-top: 10px;
     margin: auto;
     width: 60%;
     height: auto;
     overflow: hidden;
-    clear: both;
 }
 
 #detailexp img {
