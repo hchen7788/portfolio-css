@@ -52,7 +52,7 @@
     background-color: #fef8c62e;
     height: fit-content;
     width: 65%;;
-    font-size: 100%;
+    font-size: 20px;
     font-family: 'Inconsolata', 'Dosis', monospace;
     text-align: center;
     margin-left: auto;
@@ -60,5 +60,9 @@
     border-style: outset;
     border-radius: 0.5cm;
     border-width: 0.2cm;
+}
+
+#content-nav li{
+    padding: 5px
 }
 
