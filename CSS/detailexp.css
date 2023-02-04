@@ -6,7 +6,6 @@
 
 #detailexp {
     display: block;
-    padding-top: 10px;
     margin: auto;
     width: 60%;
     height: auto;
@@ -32,7 +31,7 @@
     list-style-type: none;
 }
 
-#detailexp textarea{
+.exp-text{
     float: right;
-    width: 65%;
+    width: 50%;
 }
