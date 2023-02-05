@@ -5,6 +5,7 @@
         <title>Haitong's Blogs</title>
         <link rel="stylesheet" href="CSS/styles.css">
         <link rel="stylesheet" href="CSS/post.css">
+        <link rel="stylesheet" href="CSS/blogs.css">
     </head>
     <body>
         <header>
@@ -17,17 +18,8 @@
             </nav>
         </header>
         <main>
-            <p>Blogs page</p>
 
-            <section class="search-bar">
-                <input type="text" placeholder="enter keywords">
-                <input class="search-btn" type="submit" value="SEARCH">
-                <script>
-                    //grab detail post by the searched keyword
-                </script>
-            </section>
-
-            <details>
+            <details id="bucket-list">
                 <summary>My Bucket List (which is always changing)</summary>
                 <input type="checkbox" name="bucket1" value="Learn1" checked>
                 <label for="bucket1"> Learn an instrument</label><br>
@@ -59,7 +51,21 @@
                 <label for="bucket11"> Visit Alaska -- and See the Aurora</label><br>
                 <input type="checkbox" name="bucket12" value="Travel3">
                 <label for="bucket12"> Visit Prague</label><br>
+                <input type="checkbox" name="bucket13" value="Travel4" checked>
+                <label for="bucket13"> Visit Boston -- Lobsters Taste Test</label><br>
+                <input type="checkbox" name="bucket14" value="Travel5">
+                <label for="bucket14"> Visit New York</label><br>
+                <input type="checkbox" name="bucket15" value="Travel6">
+                <label for="bucket15"> Visit Japan</label><br>
             </details>
+
+            <section class="search-bar">
+                <input type="text" placeholder="enter keywords">
+                <input class="search-btn" type="submit" value="SEARCH">
+                <script>
+                    //grab detail post by the searched keyword
+                </script>
+            </section>
         </main>
         
         <footer id="footer">
