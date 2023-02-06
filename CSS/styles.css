@@ -38,3 +38,26 @@ a:hover{
     text-align: center;
     flex-shrink: 0;
 }
+
+#feedback-box{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#feedback-btn {
+    font-family: 'Inconsolata', 'Dosis', monospace;
+    font-size: 10px;
+    background-color: #fef8c62b;
+    border-radius: 0.5cm;
+    border-width: 0.1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#feedback-btn:hover{
+    background-color: azure;
+}
+
+#feedback-btn:active{
+    background-color: aliceblue;
+}

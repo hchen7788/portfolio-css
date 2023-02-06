@@ -34,10 +34,10 @@
 }
 
 .search-btn:hover{
-    background-color: aliceblue;
+    background-color: azure;
 }
 
 .search-btn:active{
-    background-color: azure;
+    background-color: aliceblue;
 }
 
