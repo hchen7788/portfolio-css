@@ -44,7 +44,13 @@ animation for caret
     width: 70%;
     border-radius: 5%;
     height: fit-content;
+    animation: fadeIn 3s;
 }
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
 
 #socials{
     float: left;
