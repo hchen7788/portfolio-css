@@ -1,6 +1,6 @@
 .anchor-text{
     color:black;
-    font-size: 25px;
+    font-size: 1.5rem;
     font-family: 'Inconsolata', 'Dosis', monospace;
 }
 
@@ -32,6 +32,24 @@
 }
 
 .exp-text{
+    font-size: rem;
     float: right;
     width: 50%;
+}
+
+@media screen and (max-width: 640px){
+    html{
+        text-align: center;
+    }
+    #detailexp{
+        width: 80%;
+    }
+
+    #detailexp img{
+        width: 100%;
+    }
+
+    .exp-text{
+        width: 100%;
+    }
 }
