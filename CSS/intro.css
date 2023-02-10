@@ -71,17 +71,32 @@ animation for caret
     width: 50%;
     float: right;
     height: fit-content;
+    font-size: 1rem;
 }
 
 #introright p{
     display: inline;
 }
 
+@media screen and (max-width: 640px){
+    #selfintro {
+        width: 80%;
+    }
+    #introleft, #introright{
+        float: none;
+        width: 100%;
+    }
+
+    #pic{
+        width: 60%;
+    } 
+}
+
 #content-nav{
     background-color: #fef8c66c;
     height: fit-content;
     width: 65%;;
-    font-size: 20px;
+    font-size: rem;
     font-family: 'Inconsolata', 'Dosis', monospace;
     text-align: center;
     margin-top: 20px;
