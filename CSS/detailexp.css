@@ -38,18 +38,16 @@
 }
 
 @media screen and (max-width: 640px){
-    html{
-        text-align: center;
-    }
     #detailexp{
         width: 80%;
+    }
+
+    .exp-text{
+        width: 100%;
     }
 
     #detailexp img{
         width: 100%;
     }
 
-    .exp-text{
-        width: 100%;
-    }
 }

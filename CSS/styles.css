@@ -4,6 +4,9 @@ html, body, h1{
     font-family: 'Inconsolata', 'Dosis', monospace;
 }
 
+#hamburger{
+    display: none;
+}
 
 a:link, a:visited{
     color: black;
@@ -23,6 +26,29 @@ a:hover{
     color: black;
     font-family: 'Inconsolata', 'Dosis', monospace;
     text-align: center;
+}
+
+@media screen and (max-width: 640px){
+    /*
+    #headernav {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    */
+    #headernav{
+        display: none;
+    }
+
+    #hamburger{
+        height: 30px;
+        width: 100%;
+        background-color: #fef8c6;
+        text-align: center;
+        display:block;
+        text-align: center;
+    }
 }
 
 #footer{
