@@ -79,6 +79,10 @@ a:hover{
     border-width: 0.1px;
     padding-top: 10px;
     padding-bottom: 10px;
+
+    transition-property: background-color;
+    transition-duration: 0.1s;
+    transition-delay: 0.1s;
 }
 
 #feedback-btn:hover{

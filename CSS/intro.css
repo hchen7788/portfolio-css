@@ -40,7 +40,8 @@ animation for caret
 }
 
 #pic{
-    margin-left: 50px;
+    margin-left: 50%;
+    transform: translateX(-50%);
     width: 70%;
     border-radius: 5%;
     height: fit-content;
@@ -55,16 +56,19 @@ animation for caret
 #socials{
     float: left;
     float: bottom;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
 
 #socials li{
-    display: inline;
     list-style-type: none;
 }
 
 #socials img{
-    width: 15%;
-    padding-inline: 2%;
+    width: 60%;
+    padding-inline: 1%;
 }
 
 #introright{
